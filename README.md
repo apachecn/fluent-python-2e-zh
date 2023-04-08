@@ -3,36 +3,36 @@
     
     README.md
     
-        {name}：文档中文名
-        {nameEn}：文档英文名
-        {urlEn}：文档原始链接
-        {domain}：域名前缀
-        {adminName}：负责人名称
-        {adminUn}：负责人 Github 用户名
-        {adminQq}：负责人 QQ
-        {repo}：ApacheCN 的 Github 仓库名称
-        {dockerName}：DockerHub 仓库名称
-        {pypiName}：PYPI 包名称
-        {npmName}：NPM 包名称
+        FluentPython 中文第二版：文档中文名
+        FluentPython：文档英文名
+        https://fluentpython.com：文档原始链接
+        flpy：域名前缀
+        飞龙：负责人名称
+        wizardforcel：负责人 Github 用户名
+        562826179：负责人 QQ
+        fluent-python-2e-zh：ApacheCN 的 Github 仓库名称
+        fluent-python-2e-zh：DockerHub 仓库名称
+        fluent-python-2e-zh：PYPI 包名称
+        fluent-python-2e-zh：NPM 包名称
     
     CNAME
     
-        {domain}：域名前缀
+        flpy：域名前缀
 
     index.html
     
-        {name}：文档中文名
-        {color}：显示颜色
-        {repo}：ApacheCN 的 Github 仓库名称
+        FluentPython 中文第二版：文档中文名
+        #b6459a：显示颜色
+        fluent-python-2e-zh：ApacheCN 的 Github 仓库名称
 
     asset/docsify-apachecn-footer.js
     
-        {repo}：ApacheCN 的 Github 仓库名称
+        fluent-python-2e-zh：ApacheCN 的 Github 仓库名称
 -->
 
-# {name}
+# FluentPython 中文第二版
 
-> 原文：[{nameEn}]({urlEn})
+> 原文：[FluentPython](https://fluentpython.com)
 > 
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
@@ -40,7 +40,7 @@
 > 
 > 趁着年轻生猛，我要再和生活死磕几年。要么我就毁灭，要么我就铸就辉煌。如果有一天，你发现我在平庸面前低了头，那么请向我开炮。--《在路上》
 
-* [在线阅读](https://{domain}.apachecn.org)
+* [在线阅读](https://flpy.apachecn.org)
 * [在线阅读（Gitee）](https://apachecn.gitee.io/doc-template/)
 * [ApacheCN 学习资源](http://docs.apachecn.org/)
 * [ApacheCN 翻译校对兼职群 713436582](https://jq.qq.com/?_wv=1027&k=VSNtgpjb)
@@ -53,11 +53,11 @@
 
 ### 负责人
 
-* [{adminName}](https://github.com/{adminUn}): {adminQq}
+* [飞龙](https://github.com/wizardforcel): 562826179
 
 ### 其他
 
-*   在我们的 [apachecn/{repo}](https://github.com/apachecn/{repo}) github 上提 issue.
+*   在我们的 [apachecn/fluent-python-2e-zh](https://github.com/apachecn/fluent-python-2e-zh) github 上提 issue.
 *   发邮件到 Email: `apachecn@163.com`.
 *   在我们的 [组织学习交流群](https://www.apachecn.org/#/docs/join) 中联系群主/管理员即可.
 
@@ -66,24 +66,24 @@
 ### Docker
 
 ```
-docker pull apachecn0/{dockerName}
-docker run -tid -p <port>:80 apachecn0/{dockerName}
+docker pull apachecn0/fluent-python-2e-zh
+docker run -tid -p <port>:80 apachecn0/fluent-python-2e-zh
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### PYPI
 
 ```
-pip install {pypiName}
-{pypiName} <port>
+pip install fluent-python-2e-zh
+fluent-python-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
 ### NPM
 
 ```
-npm install -g {npmName}
-{npmName} <port>
+npm install -g fluent-python-2e-zh
+fluent-python-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
